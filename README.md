@@ -1,9 +1,21 @@
 # Information Bottleneck Option Learning (IBOL)
 
 This is the code for our paper,
-* *[Jaekyeom Kim](https://jaekyeom.github.io/)\*, Seohong Park\* and [Gunhee Kim](http://vision.snu.ac.kr/gunhee/)* (\*equal contribution). Unsupervised Skill Discovery with Bottleneck Option Learning. In *ICML*, 2021. [paper] [arxiv] [talk]
+* *[Jaekyeom Kim](https://jaekyeom.github.io/)\*, [Seohong Park](https://artberryx.github.io/)\* and [Gunhee Kim](http://vision.snu.ac.kr/gunhee/)* (\*equal contribution). Unsupervised Skill Discovery with Bottleneck Option Learning. In *ICML*, 2021. [[paper]](https://arxiv.org/abs/2106.14305) [[talk]](https://icml.cc/virtual/2021/spotlight/8532) [[slides]](https://icml.cc/virtual/2021/spotlight/8532)
 
 It includes the implementation for IBOL, specifically, the linearizer, the skill discovery method on top of it and the downstream tasks for the evaluation of them.
+
+### Citing the paper
+If you find our work or this code useful in your research, please cite
+
+```bibtex
+@inproceedings{kim2021_ibol,
+    title={Unsupervised Skill Discovery with Bottleneck Option Learning},
+    author={Kim, Jaekyeom and Park, Seohong and Kim, Gunhee},
+    booktitle={International Conference on Machine Learning (ICML)},
+    year={2021}
+}
+```
 
 ### Example Skills
 
