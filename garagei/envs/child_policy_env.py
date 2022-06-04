@@ -85,7 +85,7 @@ class ChildPolicyEnv(gym.Wrapper):
             if hasattr(self.child_policy, '_option_info'):
                 cp_input = get_torch_concat_obs(
                     cp_obs, cp_action,
-                    self.child_policy._option_info['num_repeats'],
+                    1,
                     dim=0,
                 ).float()
             else:
